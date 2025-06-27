@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
           
           <div className="text-center text-gray-500 mt-6">
-            <p>&copy; 2024 CasterTranslationBot. All rights reserved.</p>
+            <p>&copy; 2025 CasterTranslationBot. All rights reserved.</p>
           </div>
         </div>
       </div>

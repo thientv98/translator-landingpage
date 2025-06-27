@@ -7,5 +7,5 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const handleAddToSlack = () => {
-  window.location.href = APP_URL
+  window.open(APP_URL, '_blank')
 }

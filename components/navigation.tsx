@@ -31,17 +31,17 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-slack-purple transition-colors">
+            <a href="/#features" className="text-gray-700 hover:text-slack-purple transition-colors">
               Features
             </a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-slack-purple transition-colors">
+            <a href="/#how-it-works" className="text-gray-700 hover:text-slack-purple transition-colors">
               How it Works
             </a>
-            <a href="#pricing" className="text-gray-700 hover:text-slack-purple transition-colors">
-              Pricing
-            </a>
-            <a href="#support" className="text-gray-700 hover:text-slack-purple transition-colors">
+            <a href="/support" className="text-gray-700 hover:text-slack-purple transition-colors">
               Support
+            </a>
+            <a href="/policy" className="text-gray-700 hover:text-slack-purple transition-colors">
+              Privacy Policy
             </a>
             <Button className="bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={handleAddToSlack}>
               Add to Slack
@@ -94,11 +94,18 @@ export default function Navigation() {
                   Pricing
                 </a>
                 <a 
-                  href="#support" 
+                  href="/support" 
                   className="block text-gray-700 hover:text-slack-purple transition-colors py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Support
+                </a>
+                <a 
+                  href="/policy" 
+                  className="block text-gray-700 hover:text-slack-purple transition-colors py-2"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Privacy Policy
                 </a>
                 <Button className="w-full bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={handleAddToSlack}>
                   Add to Slack
