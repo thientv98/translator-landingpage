@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-slack-purple rounded-xl flex items-center justify-center">
                 <MessageSquare className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">MultiLang Bot</span>
+              <span className="text-xl font-bold">Caster Translator Bot</span>
             </div>
             <p className="text-gray-400">
               Breaking language barriers in Slack, one emoji reaction at a time.

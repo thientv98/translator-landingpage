@@ -38,7 +38,7 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            MultiLang Translator Bot helps your team communicate seamlessly across languages. 
+            Caster Translator Bot helps your team communicate seamlessly across languages. 
             Just react with a flag emoji and watch the magic happen.
           </p>
 

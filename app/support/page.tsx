@@ -36,7 +36,7 @@ export default function SupportPage() {
               <h1 className="text-4xl font-bold text-gray-900">App Support</h1>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to know about MultiLang Bot - Installation, Usage, and Support
+              Everything you need to know about Caster Translator Bot - Installation, Usage, and Support
             </p>
           </div>
 
@@ -85,13 +85,13 @@ export default function SupportPage() {
           <section className="mb-16">
             <div className="flex items-center space-x-3 mb-8">
               <MessageSquare className="w-6 h-6 text-slack-purple" />
-              <h2 className="text-2xl font-bold text-gray-900">About MultiLang Bot</h2>
+              <h2 className="text-2xl font-bold text-gray-900">About Caster Translator Bot</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">What is MultiLang Bot?</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">What is Caster Translator Bot?</h3>
                 <p className="text-gray-700 mb-4">
-                  MultiLang Bot is a powerful Slack translation app that breaks down language barriers in your workspace. 
+                  Caster Translator Bot is a powerful Slack translation app that breaks down language barriers in your workspace. 
                   Simply react to any message with a flag emoji, and get instant translations in your preferred language.
                 </p>
                 <p className="text-gray-700">
@@ -175,7 +175,7 @@ export default function SupportPage() {
             <div className="space-y-4">
               {[
                 {
-                  q: "How do I install MultiLang Bot?",
+                  q: "How do I install Caster Translator Bot?",
                   a: "Click the 'Add to Slack' button above, authorize the app for your workspace, and you're ready to go!"
                 },
                 {
@@ -192,7 +192,7 @@ export default function SupportPage() {
                 },
                 {
                   q: "Does it work in private channels and DMs?",
-                  a: "Yes, MultiLang Bot works in public channels, private channels, group DMs, and direct messages."
+                  a: "Yes, Caster Translator Bot works in public channels, private channels, group DMs, and direct messages."
                 }
               ].map((faq, index) => (
                 <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
@@ -215,8 +215,8 @@ export default function SupportPage() {
                   <Mail className="w-8 h-8 mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Email Support</h3>
                   <p className="text-sm opacity-90 mb-2">Get help via email</p>
-                  <a href="mailto:support@multilangbot.com" className="text-sm underline">
-                    support@multilangbot.com
+                  <a href="mailto:thien.truong@cast-er.com" className="text-sm underline">
+                  thien.truong@cast-er.com
                   </a>
                 </div>
                 <div className="text-center">

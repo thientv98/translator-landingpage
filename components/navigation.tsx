@@ -5,10 +5,12 @@ import { MessageSquare, Menu, X } from "lucide-react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { handleAddToSlack } from "@/lib/utils"
+import { useRouter } from "next/navigation"
 
 export default function Navigation() {
   console.log("Navigation component rendered")
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const router = useRouter()
 
   const toggleMenu = () => {
     console.log("Menu toggled:", !isMenuOpen)
@@ -20,7 +22,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => router.push('/')}>
             <div className="w-10 h-10 bg-slack-purple rounded-xl flex items-center justify-center">
               <MessageSquare className="w-5 h-5 text-white" />
             </div>

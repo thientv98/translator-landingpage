@@ -18,7 +18,7 @@ export default function PolicyPage() {
               <h1 className="text-4xl font-bold text-gray-900">Privacy Policy</h1>
             </div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our commitment to protecting your privacy and data when using MultiLang Bot
+              Our commitment to protecting your privacy and data when using Caster Translator Bot
             </p>
             <p className="text-sm text-gray-500 mt-4">
               Last updated: {new Date().toLocaleDateString('en-US')}
@@ -35,11 +35,11 @@ export default function PolicyPage() {
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-4">
-                  MultiLang Bot is an automatic translation application for Slack that helps break down language barriers in workplace communication. 
+                  Caster Translator Bot is an automatic translation application for Slack that helps break down language barriers in workplace communication. 
                   We are committed to protecting the privacy and data of our users.
                 </p>
                 <p className="text-gray-700">
-                  By using MultiLang Bot, you agree to the terms outlined in this privacy policy.
+                  By using Caster Translator Bot, you agree to the terms outlined in this privacy policy.
                 </p>
               </div>
             </section>
@@ -201,11 +201,11 @@ export default function PolicyPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-medium mb-2">📧 Email</h4>
-                    <p>privacy@multilangbot.com</p>
+                    <p>thien.truong@cast-er.com</p>
                   </div>
                   <div>
                     <h4 className="font-medium mb-2">🏢 Address</h4>
-                    <p>123 Tech Street, Ho Chi Minh City, Vietnam</p>
+                    <p>EBM Tower, 683-685 Dien Bien Phu, Ward 25, Binh Thanh District, Ho Chi Minh City, Vietnam</p>
                   </div>
                 </div>
               </div>
