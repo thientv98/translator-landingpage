@@ -1,0 +1,1 @@
+export const APP_URL = 'https://slack.com/oauth/v2/authorize?client_id=9081373138246.9081385452726&scope=app_mentions:read,assistant:write,channels:history,channels:join,channels:read,chat:write,chat:write.customize,chat:write.public,groups:history,groups:read,reactions:read,reactions:write,im:history,im:read,im:write&user_scope=chat:write'

@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { handleAddToSlack } from "@/lib/utils"
 import { motion } from "framer-motion"
 import { MessageSquare, Zap, Globe } from "lucide-react"
 
@@ -81,6 +82,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button 
+              onClick={handleAddToSlack}
               size="lg" 
               className="bg-slack-purple hover:bg-slack-purple/90 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all"
             >

@@ -1,6 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
+import { handleAddToSlack } from "@/lib/utils"
 import { motion } from "framer-motion"
 import { ArrowRight, MessageSquare, Star } from "lucide-react"
 
@@ -67,6 +68,7 @@ export default function CTASection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button 
+              onClick={handleAddToSlack}
               size="lg" 
               className="bg-white text-slack-purple hover:bg-gray-100 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all group"
             >
@@ -76,21 +78,10 @@ export default function CTASection() {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-slack-purple px-8 py-6 text-lg font-semibold rounded-xl transition-all"
+              className="bg-white text-slack-purple hover:bg-gray-100 px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all group"
             >
               View Documentation
             </Button>
-          </motion.div>
-
-          {/* Trust Indicators */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.9, duration: 0.6 }}
-            viewport={{ once: true }}
-            className="pt-8 text-purple-200 text-sm"
-          >
-            <p>Free to install • No credit card required • 30-day money-back guarantee</p>
           </motion.div>
         </motion.div>
       </div>

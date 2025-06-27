@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { MessageSquare, Menu, X } from "lucide-react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import { handleAddToSlack } from "@/lib/utils"
 
 export default function Navigation() {
   console.log("Navigation component rendered")
@@ -12,10 +13,6 @@ export default function Navigation() {
   const toggleMenu = () => {
     console.log("Menu toggled:", !isMenuOpen)
     setIsMenuOpen(!isMenuOpen)
-  }
-
-  const addToSlack = () => {
-    window.open = 'https://slack.com/oauth/v2/authorize?client_id=9081373138246.9081385452726&scope=app_mentions:read,assistant:write,channels:history,channels:join,channels:read,chat:write,chat:write.customize,chat:write.public,groups:history,groups:read,reactions:read,reactions:write,im:history,im:read,im:write&user_scope=chat:write'
   }
 
   return (
@@ -46,7 +43,7 @@ export default function Navigation() {
             <a href="#support" className="text-gray-700 hover:text-slack-purple transition-colors">
               Support
             </a>
-            <Button className="bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={addToSlack}>
+            <Button className="bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={handleAddToSlack}>
               Add to Slack
             </Button>
           </div>
@@ -103,7 +100,7 @@ export default function Navigation() {
                 >
                   Support
                 </a>
-                <Button className="w-full bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={addToSlack}>
+                <Button className="w-full bg-slack-purple hover:bg-slack-purple/90 text-white" onClick={handleAddToSlack}>
                   Add to Slack
                 </Button>
               </div>

@@ -72,16 +72,10 @@ export default function Footer() {
                 <span>Secure & Private</span>
               </div>
             </div>
-            
-            <div className="flex items-center space-x-2 text-gray-400">
-              <span>Made with</span>
-              <Heart className="w-4 h-4 text-red-500" />
-              <span>for global teams</span>
-            </div>
           </div>
           
           <div className="text-center text-gray-500 mt-6">
-            <p>&copy; 2024 MultiLang Bot. All rights reserved.</p>
+            <p>&copy; 2024 CasterTranslationBot. All rights reserved.</p>
           </div>
         </div>
       </div>
